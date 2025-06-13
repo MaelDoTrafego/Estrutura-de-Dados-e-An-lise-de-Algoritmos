@@ -1,0 +1,26 @@
+- Estruturas de Dados – Justificativa das Escolhas
+Optamos por modelar a matriz de distâncias utilizando dicionários aninhados, pois esse formato permite consultas rápidas, leitura intuitiva e facilita a expansão futura do sistema caso haja necessidade de adicionar novos centros ou destinos.
+As entregas foram armazenadas em listas de dicionários, garantindo flexibilidade e simplicidade, uma vez que a quantidade e os atributos de cada entrega podem variar sem exigir estruturas mais complexas.
+Essa escolha também favorece a clareza e a manutenção do código, tornando-o acessível para futuras adaptações, inclusive por outros desenvolvedores.
+Dado o volume de dados do nosso cenário, tais estruturas são suficientes e eficientes para o problema proposto.
+
+- Metodologia e Justificativa da Solução
+A lógica central do nosso sistema foi desenvolvida para sempre buscar o centro de distribuição mais próximo de cada destino, garantindo a minimização da distância e do tempo de deslocamento, conforme o objetivo do problema.
+Não utilizamos estruturas como filas de prioridade ou heaps, pois todas as entregas possuem o mesmo grau de urgência e não existe necessidade de reordenar prioridades dinamicamente durante a execução.
+A busca linear foi suficiente para o porte do problema e mostrou-se mais eficiente e prática do que adicionar complexidade desnecessária ao código.
+Tal abordagem favorece desempenho e clareza, características importantes para o contexto acadêmico e para a manutenção do sistema.
+
+- Discussão dos Resultados e Limitações
+Durante os testes, o algoritmo demonstrou execução praticamente instantânea, alocando as entregas corretamente, sem violar restrições de capacidade ou tempo máximo de operação dos caminhões.
+O modelo adotado é facilmente escalável para cenários mais amplos, sendo necessário apenas adaptar o código para múltiplos caminhões ou incluir rotas com paradas intermediárias, caso o desafio seja expandido.
+Ressaltamos que, caso o cenário exija múltiplos critérios de prioridade ou entregas com diferentes níveis de urgência, seria recomendável evoluir para algoritmos mais sofisticados, como o uso de filas de prioridade, heaps ou modelos clássicos de roteamento de veículos (VRP).
+Para o escopo proposto neste trabalho, a solução foi plenamente adequada.
+
+- Possíveis Melhorias Futuras
+O sistema pode ser expandido para incluir múltiplos caminhões por centro, rotas com múltiplas paradas, ou até integração com sistemas externos de trânsito em tempo real, aumentando ainda mais a eficiência.
+Além disso, recomenda-se considerar futuramente a implementação de algoritmos de otimização mais avançados caso o volume de entregas aumente substancialmente ou surjam novas restrições operacionais.
+Outra sugestão é a criação de uma interface gráfica para visualização das rotas e resultados das alocações, facilitando a análise e tomada de decisão pelo usuário final.
+
+- Nota Final de Justificativa da Simplicidade
+É importante destacar que a simplicidade do modelo e das estruturas de dados foi uma escolha deliberada. Essa abordagem permitiu desempenho eficiente, clareza de entendimento, fácil manutenção e total aderência ao escopo do problema proposto, mostrando que soluções diretas podem ser altamente eficazes em muitos contextos práticos de logística.
+
