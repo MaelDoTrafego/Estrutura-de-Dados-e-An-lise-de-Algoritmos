@@ -20,3 +20,8 @@ Estruturas de Dados Utilizadas:
 
 - Variáveis simples para parâmetros dos caminhões e operações.
 
+
+Link do Pitch: 
+
+https://youtu.be/PIv6Eyctv9w
+
