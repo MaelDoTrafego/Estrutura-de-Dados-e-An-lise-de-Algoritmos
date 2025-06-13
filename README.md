@@ -2,7 +2,6 @@ Otimização Logística com Múltiplos Centros de Distribuição
 Projeto para a disciplina de Estrutura de Dados e Análise de Algoritmos
 Professor: Glauber Galvão
 Grupo: Ismael Stanley de Almeida, Lucas Mateus Rosa de Aquino, Raphael dos Reis de Oliveira, Arthur Barbosa Gabriel da Silva, Daniel Ferreira Maciel, Juliana Cerqueira
-
 Este projeto implementa uma solução para o problema de roteamento logístico em múltiplos centros de distribuição, buscando otimizar o transporte de cargas em cenários realistas do Brasil. O objetivo é alocar entregas de forma eficiente, respeitando restrições de capacidade dos caminhões, tempo máximo de operação e prazos de entrega, minimizando a distância total percorrida.
 
 Funcionalidades: 
